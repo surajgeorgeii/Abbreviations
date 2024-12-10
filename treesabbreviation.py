@@ -81,7 +81,7 @@ def resolve_duplicates(abbreviation_scores):
             abbr: score for abbr, score in scores.items() if global_abbreviation_map[abbr] == 1
         }
 
-        # If valid abbreviations exist, find the one(s) with the minimum score
+        # If valid abbreviations exist, find the one with the minimum score
         if valid_abbrs:
             min_score = min(valid_abbrs.values())
             best_abbrs = [abbr for abbr, score in valid_abbrs.items() if score == min_score]
