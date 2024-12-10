@@ -95,7 +95,7 @@ def resolve_duplicates(abbreviation_scores):
 
 def main():
     input_file = "trees.txt"  #input file path
-    output_file = "trees_abbrevation_output.txt"  # Output file path 
+    output_file = "trees_abbreviation_output.txt"  # Output file path 
 
     # Read names from the file
     with open(input_file, 'r') as file:
